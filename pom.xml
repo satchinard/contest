@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ul.cic</groupId>
+    <artifactId>concours</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>concours</name>
+	
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <concours.id>com.ul.cic</concours.id>
+        <concours.version>1.0-SNAPSHOT</concours.version>
+        <wicket.version>6.19.0</wicket.version>
+        <slf4j.version>1.6.4</slf4j.version>
+        <junit.version>3.8.1</junit.version>
+        <dynamicreports.version>3.1.6</dynamicreports.version>
+        <poi.version>3.11</poi.version>
+        <shiro.version>1.2.3</shiro.version>
+        <jetty.version>6.1.10</jetty.version>
+        <wiquery.version>1.5.7</wiquery.version>
+        <spring.version>3.1.0.RELEASE</spring.version>
+        <hibernate.entity.version>4.3.4.Final</hibernate.entity.version>
+        <log.filename>cic-log</log.filename>
+        <mysql.version>5.1.18</mysql.version>
+        <postgresql.version>9.1-901-1.jdbc4</postgresql.version>
+        <oracle.version>11.2.0.3</oracle.version>
+        <jtds.version>1.3.1</jtds.version>
+    </properties>
+	
+    <url>http://cic.ul.com</url>
+	
+    <licenses>
+        <license>
+            <name>Concours CIC</name>
+            <url>http://cic.ul.com/licenses/LICENSE-1.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>Système de gestion de concours au CIC</comments>
+        </license>
+    </licenses>
+	
+    <organization>
+        <name>Centre Informatique et de Calcul</name>
+        <url>http://cic.ul.com</url>
+    </organization>
+	
+    <developers>
+        <developer>
+            <id>ada</id>
+            <name>S. Ada ATCHINARD M.-K.</name>
+            <email>satchinard@cagecfi.com</email>
+            <url>http://www.cagecfi.com</url>
+            <organization>CAGECFI</organization>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>0</timezone>
+        </developer>
+    </developers>
+	
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+	
+    <modules>
+        <module>concours-core</module>
+        <module>concours-data</module>
+        <module>concours-model</module>
+        <module>concours-journal-service</module>
+        <module>concours-journal-web</module>
+        <module>concours-compta-service</module>
+        <module>concours-compta-web</module>
+        <module>concours-inscription-service</module>
+        <module>concours-inscription-web</module>
+        <module>concours-etude-service</module>
+        <module>concours-etude-web</module>
+        <module>concours-preselection-service</module>
+        <module>concours-preselection-web</module>
+        <module>concours-ecrit-service</module>
+        <module>concours-ecrit-web</module>
+        <module>concours-rapport-service</module>
+        <module>concours-rapport-web</module>
+        <module>concours-stats-service</module>
+        <module>concours-stats-web</module>
+        <module>concours-sms-service</module>
+        <module>concours-sms-web</module>
+        <module>concours-securite-service</module>
+        <module>concours-securite-web</module>
+        <module>concours-config</module>
+        <module>concours-email-service</module>
+        <module>concours-web</module>
+    </modules>
+	
+    <build>  
+        
+        <finalName>contest-${profile.id}</finalName>
+        
+        <resources>
+            <resource>
+                <filtering>true</filtering>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <filtering>false</filtering>
+                <directory>src/main/java</directory>
+            </resource>          
+        </resources>
+		
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>src/test/resources-filtered</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>   
+		
+        <plugins>
+		
+            <plugin>
+                <inherited>true</inherited>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.12.4</version>
+                <configuration>
+                    <argLine>-Xms512m</argLine>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <skipTests>false</skipTests>
+                </configuration>
+            </plugin>
+			
+            <plugin>
+                <inherited>true</inherited>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <encoding>UTF-8</encoding>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <inherited>true</inherited>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    
+                </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>${jetty.version}</version>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                    <connectors>
+                        <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
+                            <port>8088</port>
+                            <maxIdleTime>60000</maxIdleTime>
+                        </connector>
+                    </connectors>
+                </configuration>
+            </plugin>
+            
+            
+        
+        </plugins>	
+        
+        <!--filters>
+            <filter>profiles/${profile.id}/config.properties</filter>
+        </filters-->
+		
+    </build>
+    
+    <reporting>
+        <plugins>
+            <!--plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>3.4</version>
+            </plugin-->
+        </plugins>
+    </reporting>
+    
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <profile.id>dev</profile.id>
+                <db.driverClass></db.driverClass>
+                <db.cnx.url></db.cnx.url>
+                <db.user></db.user>
+                <db.pwd></db.pwd>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <profile.id>prod</profile.id>
+                <db.driverClass></db.driverClass>
+                <db.cnx.url></db.cnx.url>
+                <db.user></db.user>
+                <db.pwd></db.pwd>
+            </properties>
+        </profile>
+        <profile>
+            <id>test</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+                <!--os>
+                    <name>Windows 8</name>
+                    <family>Windows</family>
+                    <arch>x86</arch>
+                </os-->
+            </activation>
+            <properties>
+                <profile.id>test</profile.id>
+                <db.driverClass></db.driverClass>
+                <db.cnx.url></db.cnx.url>
+                <db.user></db.user>
+                <db.pwd></db.pwd>
+            </properties>
+        </profile>
+        <!--profile>
+            <id>windows</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <profile.id>windows</profile.id>
+                <db.driverClass></db.driverClass>
+                <db.cnx.url></db.cnx.url>
+                <db.user></db.user>
+                <db.pwd></db.pwd>
+            </properties>
+        </profile>
+        <profile>
+            <id>linux</id>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+            <properties>
+                <profile.id>linux</profile.id>
+                <db.driverClass></db.driverClass>
+                <db.cnx.url></db.cnx.url>
+                <db.user></db.user>
+                <db.pwd></db.pwd>
+            </properties>
+        </profile-->
+    </profiles>
+	
+</project>
