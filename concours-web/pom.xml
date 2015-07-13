@@ -66,6 +66,11 @@
             <artifactId>concours-compta-web</artifactId>
             <version>${concours.version}</version>
         </dependency>
+        <dependency>
+            <groupId>${concours.id}</groupId>
+            <artifactId>concours-core</artifactId>
+            <version>${concours.version}</version>
+        </dependency>
         <!--dependency>
             <groupId>${concours.id}</groupId>
             <artifactId>concours-securite-web</artifactId>

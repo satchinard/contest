@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ul.cic.base;
+package com.ul.cic.template;
 
 import net.sf.dynamicreports.jasper.base.export.JasperDocxExporter;
 

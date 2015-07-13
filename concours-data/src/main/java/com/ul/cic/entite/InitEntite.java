@@ -9,7 +9,25 @@ package com.ul.cic.entite;
  *
  * @author cagecfi
  */
-public class InitEntite {
+public abstract class InitEntite {
 
-    private String version;
+    private Integer version;
+    private Integer id;
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
 }

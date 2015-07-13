@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.ul.cic.base;
+package com.ul.cic.modeles;
 
-import net.sf.dynamicreports.jasper.builder.JasperReportBuilder;
+import net.sf.dynamicreports.jasper.constant.JasperProperty;
 
 /**
  *
  * @author cagecfi
  */
-public abstract class TemplateReportBuilder extends JasperReportBuilder {
-
+public abstract class BaseReport extends JasperProperty{
+    
 }

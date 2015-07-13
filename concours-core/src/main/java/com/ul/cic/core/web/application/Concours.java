@@ -5,6 +5,7 @@
  */
 package com.ul.cic.core.web.application;
 
+import com.ul.cic.core.web.login.Login;
 import org.apache.wicket.Page;
 import org.apache.wicket.RuntimeConfigurationType;
 import org.apache.wicket.protocol.http.WebApplication;
@@ -17,7 +18,7 @@ public class Concours extends WebApplication {
 
     @Override
     public Class<? extends Page> getHomePage() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return Login.class;
     }
 
     @Override
@@ -32,7 +33,7 @@ public class Concours extends WebApplication {
 
     @Override
     protected void init() {
-        super.init(); 
+        super.init();
     }
 
     @Override
