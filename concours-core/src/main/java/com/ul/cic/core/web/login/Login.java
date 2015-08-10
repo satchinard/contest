@@ -5,7 +5,14 @@
  */
 package com.ul.cic.core.web.login;
 
+import de.agilecoders.wicket.core.markup.html.bootstrap.form.BootstrapForm;
 import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.markup.html.form.Button;
+import org.apache.wicket.markup.html.form.CheckBox;
+import org.apache.wicket.markup.html.form.EmailTextField;
+import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.PasswordTextField;
+import org.apache.wicket.markup.html.form.TextField;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 
@@ -16,14 +23,12 @@ import org.apache.wicket.request.mapper.parameter.PageParameters;
 public class Login extends WebPage {
 
     public Login() {
-    }
-
-    public Login(IModel<?> model) {
-        super(model);
-    }
-
-    public Login(PageParameters parameters) {
-        super(parameters);
+        Form f = new BootstrapForm("loginForm");
+        f.add(new EmailTextField("email"));
+        f.add(new PasswordTextField("pwd"));
+        f.add(new CheckBox("email"));
+        f.add(new Button("validate"));
+        add(f);
     }
 
 }
