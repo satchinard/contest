@@ -14,8 +14,9 @@
         <concours.id>com.ul.cic</concours.id>
         <concours.version>1.0-SNAPSHOT</concours.version>
         
-        <wicket.version>6.19.0</wicket.version>
-        <wiquery.version>1.5.7</wiquery.version>
+        <!--wicket.version>6.19.0</wicket.version-->
+        <wicket.version>6.20.0</wicket.version>
+        <wiquery.version>6.13.0</wiquery.version>
         
         <junit.version>3.8.1</junit.version>
         <easymock.version>3.3.1</easymock.version>
