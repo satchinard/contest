@@ -15,7 +15,7 @@ import org.apache.wicket.util.lang.Bytes;
  *
  * @author cagecfi
  */
-public abstract class ConcoursApplicationSettings implements IApplicationSettings {
+public class ConcoursApplicationSettings implements IApplicationSettings {
 
     @Override
     public Class<? extends Page> getAccessDeniedPage() {
@@ -29,7 +29,7 @@ public abstract class ConcoursApplicationSettings implements IApplicationSetting
 
     @Override
     public Bytes getDefaultMaximumUploadSize() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return Bytes.megabytes(5);
     }
 
     @Override
@@ -45,6 +45,41 @@ public abstract class ConcoursApplicationSettings implements IApplicationSetting
     @Override
     public boolean isUploadProgressUpdatesEnabled() {
         return true;
+    }
+
+    @Override
+    public void setAccessDeniedPage(Class<? extends Page> type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setClassResolver(IClassResolver icr) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setDefaultMaximumUploadSize(Bytes bytes) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setInternalErrorPage(Class<? extends Page> type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setPageExpiredErrorPage(Class<? extends Page> type) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setUploadProgressUpdatesEnabled(boolean bln) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void setFeedbackMessageCleanupFilter(IFeedbackMessageFilter ifmf) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override

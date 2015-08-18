@@ -8,6 +8,7 @@ package com.ul.cic.core.web.application;
 import com.ul.cic.core.web.login.Login;
 import org.apache.wicket.Page;
 import org.apache.wicket.protocol.http.WebApplication;
+import org.apache.wicket.util.lang.Bytes;
 
 /**
  *
@@ -18,6 +19,36 @@ public class Concours extends WebApplication {
     @Override
     public Class<? extends Page> getHomePage() {
         return Login.class;
+    }
+
+    @Override
+    protected void init() {
+
+        super.init();
+
+        // debug settings
+        getDebugSettings().setAjaxDebugModeEnabled(true);
+        getDebugSettings().setOutputMarkupContainerClassName(false);
+
+        // page settings
+        getPageSettings().setRecreateMountedPagesAfterExpiry(true);
+        getPageSettings().setVersionPagesByDefault(false);
+
+        // security settings
+        getSecuritySettings().setEnforceMounts(true);
+
+        // store settings
+        getStoreSettings().setMaxSizePerSession(Bytes.kilobytes(512));
+        getStoreSettings().setInmemoryCacheSize(10);
+
+        // markup settings
+        getMarkupSettings().setStripWicketTags(true);
+        getMarkupSettings().setStripComments(true);
+        getMarkupSettings().setCompressWhitespace(true);
+
+        // montage de l'application
+        mountPackage("com.ul.cic.core", Login.class);
+
     }
 
 }
