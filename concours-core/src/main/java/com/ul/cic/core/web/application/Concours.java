@@ -6,7 +6,12 @@
 package com.ul.cic.core.web.application;
 
 import com.ul.cic.core.web.login.Login;
+import com.ul.cic.core.web.settings.ConcoursMapperContext;
+import com.ul.cic.core.web.settings.ConcoursSessionListener;
 import org.apache.wicket.Page;
+import org.apache.wicket.RuntimeConfigurationType;
+import org.apache.wicket.core.request.mapper.CryptoMapper;
+import org.apache.wicket.core.request.mapper.IMapperContext;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.util.lang.Bytes;
 
@@ -25,6 +30,8 @@ public class Concours extends WebApplication {
     protected void init() {
 
         super.init();
+        // url encryption
+//        setRootRequestMapper(new CryptoMapper(getRootRequestMapper(), this));
 
         // debug settings
         getDebugSettings().setAjaxDebugModeEnabled(true);
@@ -46,9 +53,18 @@ public class Concours extends WebApplication {
         getMarkupSettings().setStripComments(true);
         getMarkupSettings().setCompressWhitespace(true);
 
-        // montage de l'application
-        mountPackage("com.ul.cic.core", Login.class);
+        // mounting application
+        mountPackage("concours", Login.class);
 
+        setConfigurationType(RuntimeConfigurationType.DEVELOPMENT);
+
+        ConcoursSessionListener listener = new ConcoursSessionListener();
+        get().getSessionListeners().add(listener);
+    }
+
+    @Override
+    protected IMapperContext newMapperContext() {
+        return new ConcoursMapperContext();
     }
 
 }
