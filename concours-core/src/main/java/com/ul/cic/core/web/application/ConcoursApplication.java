@@ -10,6 +10,8 @@ import com.ul.cic.core.web.settings.ConcoursMapperContext;
 import com.ul.cic.core.web.settings.ConcoursSessionListener;
 import org.apache.wicket.Page;
 import org.apache.wicket.core.request.mapper.IMapperContext;
+import org.apache.wicket.markup.html.pages.BrowserInfoForm.ClientPropertiesBean;
+import org.apache.wicket.protocol.http.ClientProperties;
 import org.apache.wicket.protocol.http.WebApplication;
 import org.apache.wicket.util.lang.Bytes;
 
@@ -58,6 +60,11 @@ public class ConcoursApplication extends WebApplication {
 
         ConcoursSessionListener listener = new ConcoursSessionListener();
         get().getSessionListeners().add(listener);
+        
+        ClientProperties cp = new ClientProperties();
+        ClientPropertiesBean cpb = new ClientPropertiesBean();
+        
+        
     }
 
     @Override

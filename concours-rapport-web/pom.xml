@@ -20,10 +20,10 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!--dependency>
+        <dependency>
             <groupId>${concours.id}</groupId>
             <artifactId>concours-rapport-service</artifactId>
             <version>${concours.version}</version>
-        </dependency-->
+        </dependency>
     </dependencies>
 </project>
