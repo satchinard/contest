@@ -1,13 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.ul.cic.core.web.application;
 
 import com.ul.cic.core.web.index.Index;
 import com.ul.cic.core.web.settings.ConcoursMapperContext;
 import com.ul.cic.core.web.settings.ConcoursSessionListener;
+import de.agilecoders.wicket.core.Bootstrap;
 import org.apache.wicket.Page;
 import org.apache.wicket.core.request.mapper.IMapperContext;
 import org.apache.wicket.markup.html.pages.BrowserInfoForm.ClientPropertiesBean;
@@ -32,7 +28,6 @@ public class ConcoursApplication extends WebApplication {
 
 //        super.init();
 //        setConfigurationType(RuntimeConfigurationType.DEPLOYMENT);
-
         // url encryption
 //        setRootRequestMapper(new CryptoMapper(getRootRequestMapper(), this));
         // debug settings
@@ -57,14 +52,15 @@ public class ConcoursApplication extends WebApplication {
 
         // mounting application
 //        mountPackage("concours", Login.class);
-
         ConcoursSessionListener listener = new ConcoursSessionListener();
         get().getSessionListeners().add(listener);
-        
+
+        // bootstrap settings
+        Bootstrap.install(this);
+
         ClientProperties cp = new ClientProperties();
         ClientPropertiesBean cpb = new ClientPropertiesBean();
-        
-        
+
     }
 
     @Override
