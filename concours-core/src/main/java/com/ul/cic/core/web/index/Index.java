@@ -3,6 +3,7 @@ package com.ul.cic.core.web.index;
 import de.agilecoders.wicket.core.markup.html.bootstrap.button.BootstrapButton;
 import de.agilecoders.wicket.core.markup.html.bootstrap.button.Buttons;
 import de.agilecoders.wicket.core.markup.html.bootstrap.form.BootstrapForm;
+import de.agilecoders.wicket.extensions.markup.html.bootstrap.form.fileinput.BootstrapFileInputField;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
@@ -25,7 +26,9 @@ public class Index extends WebPage {
 
     public Index() {
         BootstrapForm bsf = new BootstrapForm("test");
-        bsf.add(new BootstrapButton("test1", Buttons.Type.Menu));
+        BootstrapFileInputField bfif = new BootstrapFileInputField("file");
+        bsf.add(bfif);
+        bsf.add(new BootstrapButton("test1", Buttons.Type.Success));
 
 //        Bootstrap.install(this.getApplication());
         add(bsf);
