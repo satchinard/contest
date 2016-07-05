@@ -14,12 +14,7 @@
     <name>concours-core</name>
     <url>http://maven.apache.org</url>
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>${junit.version}</version>
-            <scope>test</scope>
-        </dependency>
+
         <!--dependency>
             <groupId>de.agilecoders.wicket</groupId>
             <artifactId>bootstrap-parent</artifactId>
@@ -135,6 +130,11 @@
             <version>${wicket.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.wicket</groupId>
+            <artifactId>wicket-request</artifactId>
+            <version>${wicket.version}</version>
+        </dependency>
+        <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
@@ -159,7 +159,13 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
+            <!--version>1.5.6</version-->
             <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
         </dependency>
         <!--dependency>
             <groupId>org.slf4j</groupId>
@@ -182,8 +188,14 @@
             <artifactId>easymock</artifactId>
             <version>${easymock.version}</version>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-    <repositories>
+    <!--repositories>
         <repository>
             <id>wicket-menu-release</id>
             <url>http://wicket-menu.googlecode.com/svn/maven/repo</url>
@@ -204,11 +216,11 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-        <!--repository>
+        <repository>
             <id>wiquery plugin repository</id>
             <name>wiQuery plugin repository</name>
             <url>http://wiquery-plugins.googlecode.com/svn/m2repo/</url>
             <layout>default</layout>
-        </repository-->
-    </repositories>
+        </repository>
+    </repositories-->
 </project>

@@ -5,18 +5,13 @@ import de.agilecoders.wicket.core.markup.html.bootstrap.button.Buttons;
 import de.agilecoders.wicket.core.markup.html.bootstrap.form.BootstrapForm;
 import de.agilecoders.wicket.extensions.markup.html.bootstrap.form.fileinput.BootstrapFileInputField;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
-import org.apache.wicket.extensions.markup.html.form.palette.Palette;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.form.Form;
-import org.apache.wicket.markup.html.form.IChoiceRenderer;
 import org.apache.wicket.markup.repeater.RepeatingView;
-import org.apache.wicket.model.AbstractReadOnlyModel;
 import org.apache.wicket.model.Model;
-import org.apache.wicket.model.util.ListModel;
 
 /**
  *
@@ -37,34 +32,31 @@ public class Index extends WebPage {
                 "MESSANH", "KANLIH", "Hi!", "Koffi", "Koumah", "Alain");
         final List<String> secondList = new LinkedList<String>();
 
-        IChoiceRenderer<String> rdrer = new IChoiceRenderer<String>() {
-
-            @Override
-            public Object getDisplayValue(String t) {
-                return t;
-            }
-
-            @Override
-            public String getIdValue(String t, int i) {
-                return t;
-            }
-        };
-
-        Palette<String> pString = new Palette<>("palette",
-                new ListModel<>(firstList), rdrer, 5, true);
-        pString.setOutputMarkupId(true);
-        pString.clearOriginalDestination();
-
-        pString.setModel(new AbstractReadOnlyModel<Collection<? extends String>>() {
-
-            @Override
-            public Collection<? extends String> getObject() {
-                return secondList;
-            }
-        });
-
+//        IChoiceRenderer<String> rdrer = new IChoiceRenderer<String>() {
+//
+//            @Override
+//            public Object getDisplayValue(String t) {
+//                return t;
+//            }
+//
+//            @Override
+//            public String getIdValue(String t, int i) {
+//                return t;
+//            }
+//        };
+//        Palette<String> pString = new Palette<>("palette",
+//                new ListModel<>(firstList), rdrer, 5, true);
+//        pString.setOutputMarkupId(true);
+//        pString.clearOriginalDestination();
+//        pString.setModel(new AbstractReadOnlyModel<Collection<? extends String>>() {
+//
+//            @Override
+//            public Collection<? extends String> getObject() {
+//                return secondList;
+//            }
+//        });
         Form f = new Form("testForm");
-        f.add(pString);
+//        f.add(pString);
 
         add(f);
 
