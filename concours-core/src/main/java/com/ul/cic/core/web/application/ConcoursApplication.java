@@ -1,7 +1,6 @@
 package com.ul.cic.core.web.application;
 
 import com.ul.cic.core.web.index.Index;
-import de.agilecoders.wicket.core.Bootstrap;
 import org.apache.wicket.Page;
 import org.apache.wicket.protocol.http.WebApplication;
 
@@ -51,7 +50,7 @@ public class ConcoursApplication extends WebApplication {
 //        get().getSessionListeners().add(listener);
 //
         // bootstrap settings
-        Bootstrap.install(this);
+//        Bootstrap.install(this);
 //
 //        ClientProperties cp = new ClientProperties();
 //        ClientPropertiesBean cpb = new ClientPropertiesBean();

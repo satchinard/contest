@@ -1,9 +1,5 @@
 package com.ul.cic.core.web.index;
 
-import de.agilecoders.wicket.core.markup.html.bootstrap.button.BootstrapButton;
-import de.agilecoders.wicket.core.markup.html.bootstrap.button.Buttons;
-import de.agilecoders.wicket.core.markup.html.bootstrap.form.BootstrapForm;
-import de.agilecoders.wicket.extensions.markup.html.bootstrap.form.fileinput.BootstrapFileInputField;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,14 +16,13 @@ import org.apache.wicket.model.Model;
 public class Index extends WebPage {
 
     public Index() {
-        BootstrapForm bsf = new BootstrapForm("test");
-        BootstrapFileInputField bfif = new BootstrapFileInputField("file");
-        bsf.add(bfif);
-        bsf.add(new BootstrapButton("test1", Buttons.Type.Success));
+//        BootstrapForm bsf = new BootstrapForm("test");
+//        BootstrapFileInputField bfif = new BootstrapFileInputField("file");
+//        bsf.add(bfif);
+//        bsf.add(new BootstrapButton("test1", Buttons.Type.Success));
 
 //        Bootstrap.install(this.getApplication());
-        add(bsf);
-
+//        add(bsf);
         List<String> firstList = Arrays.asList("Ada", "Senu", "ATCHINARD",
                 "MESSANH", "KANLIH", "Hi!", "Koffi", "Koumah", "Alain");
         final List<String> secondList = new LinkedList<String>();

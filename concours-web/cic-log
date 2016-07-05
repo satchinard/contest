@@ -658,3 +658,337 @@ org.apache.wicket.WicketRuntimeException: No BootstrapSettings associated with t
 3357 [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' released lock to page with id '0'
 3357 [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' notifying blocked threads
 3357 [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+0    [main] WARN  org.apache.wicket.Application  - Found 'file:/G:/test/contest/concours-web/target/classes/wicket.properties'. /wicket.properties location is deprecated. Please move the file to /META-INF/wicket/ folder and give it a name that matches your packages' name, e.g. com.example.myapp.properties
+5    [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-1fe8b32a-07a5-494e-8f8b-157966b5f38b] init: Wicket core library initializer
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+10   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-1fe8b32a-07a5-494e-8f8b-157966b5f38b] init: Wicket extensions initializer
+55   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-1fe8b32a-07a5-494e-8f8b-157966b5f38b] init: org.apache.wicket.velocity.Initializer@1e47f9d
+175  [main] INFO  org.apache.wicket.velocity.Initializer  - Initialized Velocity successfully
+0    [main] WARN  org.apache.wicket.Application  - Found 'file:/G:/test/contest/concours-web/target/classes/wicket.properties'. /wicket.properties location is deprecated. Please move the file to /META-INF/wicket/ folder and give it a name that matches your packages' name, e.g. com.example.myapp.properties
+8    [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-e14c0168-2563-498c-9ac4-735ed5b77198] init: Wicket core library initializer
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+16   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-e14c0168-2563-498c-9ac4-735ed5b77198] init: Wicket extensions initializer
+44   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-e14c0168-2563-498c-9ac4-735ed5b77198] init: org.apache.wicket.velocity.Initializer@1e47f9d
+140  [main] INFO  org.apache.wicket.velocity.Initializer  - Initialized Velocity successfully
+0    [main] WARN  org.apache.wicket.Application  - Found 'file:/G:/test/contest/concours-web/target/classes/wicket.properties'. /wicket.properties location is deprecated. Please move the file to /META-INF/wicket/ folder and give it a name that matches your packages' name, e.g. com.example.myapp.properties
+8    [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-a310eb7d-71e9-4ecf-9e5b-e755db9f674e] init: Wicket core library initializer
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+12   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+16   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-a310eb7d-71e9-4ecf-9e5b-e755db9f674e] init: Wicket extensions initializer
+40   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-a310eb7d-71e9-4ecf-9e5b-e755db9f674e] init: org.apache.wicket.velocity.Initializer@2bb51f0
+140  [main] INFO  org.apache.wicket.velocity.Initializer  - Initialized Velocity successfully
+160  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+172  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+176  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.request.mapper.CompoundRequestMapper  - No compatible mapper found for URL ''
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+192  [main] DEBUG org.apache.wicket.MarkupContainer  - Add testForm to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 1 to [RepeatingView [Component id = repeate]]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 2 to [RepeatingView [Component id = repeate]]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 3 to [RepeatingView [Component id = repeate]]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 4 to [RepeatingView [Component id = repeate]]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 5 to [RepeatingView [Component id = repeate]]
+196  [main] DEBUG org.apache.wicket.MarkupContainer  - Add repeate to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+200  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=com.ul.cic.core.web.index.Index_fr_FR.html
+204  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[classpath]'
+204  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[webapppath: /]'
+204  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+204  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[classpath]'
+208  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[webapppath: /]'
+208  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[classpath: META-INF/resources/]'
+208  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index.html' using finder'[classpath]'
+212  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Loading markup from jar:file:/G:/test/contest/concours-core/target/contest-dev.jar!/com/ul/cic/core/web/index/Index.html
+244  [main] DEBUG org.apache.wicket.markup.AbstractMarkupParser  - The markup file does not have a XML declaration prolog with 'encoding' attribute:jar:file:/G:/test/contest/concours-core/target/contest-dev.jar!/com/ul/cic/core/web/index/Index.html. It is safer to use it. E.g. <?xml version="1.0" encoding="UTF-8" ?>
+248  [main] DEBUG org.apache.wicket.MarkupContainer  - Add _header_ to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+248  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.html.internal.HtmlHeaderContainer_fr_FR.html
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[classpath]'
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[webapppath: /]'
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[classpath]'
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[webapppath: /]'
+248  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[classpath]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[webapppath: /]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[classpath: META-INF/resources/]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[classpath]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[webapppath: /]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+252  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[classpath]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[webapppath: /]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[classpath]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[webapppath: /]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[classpath: META-INF/resources/]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[classpath]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[webapppath: /]'
+256  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[classpath]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[webapppath: /]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[classpath]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[webapppath: /]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.html.internal.HtmlHeaderContainer_fr_FR.html
+268  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' attempting to acquire lock to page with id '0'
+268  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - main acquired lock to page 0
+268  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.html.form.Form_fr_FR.html
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[classpath]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[webapppath: /]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[classpath]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[webapppath: /]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[classpath: META-INF/resources/]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[classpath]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[webapppath: /]'
+268  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[classpath: META-INF/resources/]'
+272  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.html.form.Form_fr_FR.html
+272  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.repeater.RepeatingView_fr_FR.html
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[classpath]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[webapppath: /]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[classpath]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[webapppath: /]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[classpath: META-INF/resources/]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[classpath]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[webapppath: /]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[classpath: META-INF/resources/]'
+272  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[classpath]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[webapppath: /]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[classpath]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[webapppath: /]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[classpath: META-INF/resources/]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[classpath]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[webapppath: /]'
+276  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[classpath: META-INF/resources/]'
+276  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.repeater.RepeatingView_fr_FR.html
+280  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]' is not stateless because of component with path 'testForm'.
+280  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]' is not stateless because of component with path 'testForm'.
+284  [main] DEBUG org.apache.wicket.Component  - Begin render [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+284  [main] DEBUG org.apache.wicket.Component  - Begin render [HtmlHeaderContainer [Component id = _header_]]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Form [Component id = testForm]]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 1]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 2]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 3]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 4]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 5]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [RepeatingView [Component id = repeate]]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [HtmlHeaderContainer [Component id = _header_]]
+292  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Index [Component id = 0]]
+292  [main] DEBUG org.apache.wicket.Page  - Rendered [HtmlHeaderContainer [Component id = _header_]]
+292  [main] DEBUG org.apache.wicket.Component  - End render [HtmlHeaderContainer [Component id = _header_]]
+292  [main] DEBUG org.apache.wicket.Component  - Begin render [Form [Component id = testForm]]
+296  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]' is not stateless because of component with path 'testForm'.
+296  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+296  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+296  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+296  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Form [Component id = testForm]]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Form [Component id = testForm]]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [RepeatingView [Component id = repeate]]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 1]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 1]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 1]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 2]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 2]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 2]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 3]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 3]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 3]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 4]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 4]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 4]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 5]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 5]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 5]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [RepeatingView [Component id = repeate]]
+300  [main] DEBUG org.apache.wicket.Component  - End render [RepeatingView [Component id = repeate]]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+300  [main] DEBUG org.apache.wicket.Component  - End render [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+300  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' attempting to acquire lock to page with id '0'
+300  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - main acquired lock to page 0
+336  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+336  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+336  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+336  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+344  [main] DEBUG org.apache.wicket.Page  - ending request for page [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1], request org.apache.wicket.protocol.http.servlet.ServletWebRequest@236e2c09
+356  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' released lock to page with id '0'
+356  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' notifying blocked threads
+360  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+360  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+360  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+364  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+364  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+364  [main] DEBUG org.apache.wicket.request.mapper.CompoundRequestMapper  - One compatible mapper found for URL '?0' -> 'Mapper: org.apache.wicket.core.request.mapper.BufferedResponseMapper; Score: 2147483647'
+368  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+0    [main] WARN  org.apache.wicket.Application  - Found 'file:/G:/test/contest/concours-web/target/classes/wicket.properties'. /wicket.properties location is deprecated. Please move the file to /META-INF/wicket/ folder and give it a name that matches your packages' name, e.g. com.example.myapp.properties
+5    [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-8d9f0d19-0fd0-40a6-8808-24536d2e9d4f] init: Wicket core library initializer
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IBehaviorListener, method=public abstract void org.apache.wicket.behavior.IBehaviorListener.onRequest()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IFormSubmitListener, method=public abstract void org.apache.wicket.markup.html.form.IFormSubmitListener.onFormSubmitted()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=ILinkListener, method=public abstract void org.apache.wicket.markup.html.link.ILinkListener.onLinkClicked()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IOnChangeListener, method=public abstract void org.apache.wicket.markup.html.form.IOnChangeListener.onSelectionChanged()]
+10   [main] INFO  org.apache.wicket.RequestListenerInterface  - registered listener interface [RequestListenerInterface name=IResourceListener, method=public abstract void org.apache.wicket.IResourceListener.onResourceRequested()]
+15   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-8d9f0d19-0fd0-40a6-8808-24536d2e9d4f] init: Wicket extensions initializer
+35   [main] INFO  org.apache.wicket.Application  - [WicketTesterApplication-8d9f0d19-0fd0-40a6-8808-24536d2e9d4f] init: org.apache.wicket.velocity.Initializer@2bb51f0
+150  [main] INFO  org.apache.wicket.velocity.Initializer  - Initialized Velocity successfully
+165  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+180  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+185  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+185  [main] DEBUG org.apache.wicket.request.mapper.CompoundRequestMapper  - No compatible mapper found for URL ''
+185  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+185  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+195  [main] DEBUG org.apache.wicket.MarkupContainer  - Add testForm to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 1 to [RepeatingView [Component id = repeate]]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 2 to [RepeatingView [Component id = repeate]]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 3 to [RepeatingView [Component id = repeate]]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 4 to [RepeatingView [Component id = repeate]]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add 5 to [RepeatingView [Component id = repeate]]
+200  [main] DEBUG org.apache.wicket.MarkupContainer  - Add repeate to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+205  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=com.ul.cic.core.web.index.Index_fr_FR.html
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[classpath]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[webapppath: /]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[classpath]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[webapppath: /]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index_fr.html' using finder'[classpath: META-INF/resources/]'
+210  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'com/ul/cic/core/web/index/Index.html' using finder'[classpath]'
+215  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Loading markup from jar:file:/C:/Users/cagecfi/.m2/repository/com/ul/cic/concours-core/1.0-SNAPSHOT/concours-core-1.0-SNAPSHOT.jar!/com/ul/cic/core/web/index/Index.html
+245  [main] DEBUG org.apache.wicket.markup.AbstractMarkupParser  - The markup file does not have a XML declaration prolog with 'encoding' attribute:jar:file:/C:/Users/cagecfi/.m2/repository/com/ul/cic/concours-core/1.0-SNAPSHOT/concours-core-1.0-SNAPSHOT.jar!/com/ul/cic/core/web/index/Index.html. It is safer to use it. E.g. <?xml version="1.0" encoding="UTF-8" ?>
+250  [main] DEBUG org.apache.wicket.MarkupContainer  - Add _header_ to [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]
+250  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.html.internal.HtmlHeaderContainer_fr_FR.html
+250  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[classpath]'
+250  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[webapppath: /]'
+250  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[classpath]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[webapppath: /]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[classpath]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[webapppath: /]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/internal/HtmlHeaderContainer.html' using finder'[classpath: META-INF/resources/]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[classpath]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[webapppath: /]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[classpath]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[webapppath: /]'
+255  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[classpath]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[webapppath: /]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/TransparentWebMarkupContainer.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[classpath]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[webapppath: /]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[classpath]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[webapppath: /]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer_fr.html' using finder'[classpath: META-INF/resources/]'
+260  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[classpath]'
+265  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[webapppath: /]'
+265  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/WebMarkupContainer.html' using finder'[classpath: META-INF/resources/]'
+265  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.html.internal.HtmlHeaderContainer_fr_FR.html
+270  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' attempting to acquire lock to page with id '0'
+270  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - main acquired lock to page 0
+270  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.html.form.Form_fr_FR.html
+270  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[classpath]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[webapppath: /]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[classpath]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[webapppath: /]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form_fr.html' using finder'[classpath: META-INF/resources/]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[classpath]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[webapppath: /]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/html/form/Form.html' using finder'[classpath: META-INF/resources/]'
+275  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.html.form.Form_fr_FR.html
+275  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Load markup: cacheKey=org.apache.wicket.markup.repeater.RepeatingView_fr_FR.html
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[classpath]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[webapppath: /]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[classpath]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[webapppath: /]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView_fr.html' using finder'[classpath: META-INF/resources/]'
+275  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[classpath]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[webapppath: /]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/RepeatingView.html' using finder'[classpath: META-INF/resources/]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[classpath]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[webapppath: /]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr_FR.html' using finder'[classpath: META-INF/resources/]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[classpath]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[webapppath: /]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater_fr.html' using finder'[classpath: META-INF/resources/]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[classpath]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[webapppath: /]'
+280  [main] DEBUG org.apache.wicket.core.util.resource.locator.ResourceStreamLocator  - Attempting to locate resource 'org/apache/wicket/markup/repeater/AbstractRepeater.html' using finder'[classpath: META-INF/resources/]'
+280  [main] DEBUG org.apache.wicket.markup.MarkupCache  - Markup not found: org.apache.wicket.markup.repeater.RepeatingView_fr_FR.html
+285  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 0]' is not stateless because of component with path 'testForm'.
+285  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]' is not stateless because of component with path 'testForm'.
+290  [main] DEBUG org.apache.wicket.Component  - Begin render [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+290  [main] DEBUG org.apache.wicket.Component  - Begin render [HtmlHeaderContainer [Component id = _header_]]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Form [Component id = testForm]]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 1]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 2]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 3]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 4]
+295  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Component id = 5]
+300  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [RepeatingView [Component id = repeate]]
+300  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [HtmlHeaderContainer [Component id = _header_]]
+300  [main] DEBUG org.apache.wicket.Component  - internalRenderHead: [Index [Component id = 0]]
+300  [main] DEBUG org.apache.wicket.Page  - Rendered [HtmlHeaderContainer [Component id = _header_]]
+300  [main] DEBUG org.apache.wicket.Component  - End render [HtmlHeaderContainer [Component id = _header_]]
+300  [main] DEBUG org.apache.wicket.Component  - Begin render [Form [Component id = testForm]]
+300  [main] DEBUG org.apache.wicket.Page  - Page '[Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]' is not stateless because of component with path 'testForm'.
+305  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+305  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+305  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+305  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Form [Component id = testForm]]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Form [Component id = testForm]]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [RepeatingView [Component id = repeate]]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 1]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 1]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 1]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 2]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 2]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 2]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 3]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 3]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 3]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 4]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 4]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 4]
+305  [main] DEBUG org.apache.wicket.Component  - Begin render [Component id = 5]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Component id = 5]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Component id = 5]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [RepeatingView [Component id = repeate]]
+305  [main] DEBUG org.apache.wicket.Component  - End render [RepeatingView [Component id = repeate]]
+305  [main] DEBUG org.apache.wicket.Page  - Rendered [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+305  [main] DEBUG org.apache.wicket.Component  - End render [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1]
+310  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' attempting to acquire lock to page with id '0'
+310  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - main acquired lock to page 0
+310  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+310  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+310  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+310  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+310  [main] DEBUG org.apache.wicket.Page  - ending request for page [Page class = com.ul.cic.core.web.index.Index, id = 0, render count = 1], request org.apache.wicket.protocol.http.servlet.ServletWebRequest@236e2c09
+315  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' released lock to page with id '0'
+315  [main] DEBUG org.apache.wicket.page.PageAccessSynchronizer  - 'main' notifying blocked threads
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
+315  [main] DEBUG org.apache.wicket.request.mapper.CompoundRequestMapper  - One compatible mapper found for URL '?0' -> 'Mapper: org.apache.wicket.core.request.mapper.BufferedResponseMapper; Score: 2147483647'
+315  [main] DEBUG org.apache.wicket.protocol.http.servlet.ServletWebRequest  - Calculating context relative path from: context path '/context', filterPrefix 'servlet/', uri '/context/servlet/'
